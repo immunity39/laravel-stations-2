@@ -7,6 +7,6 @@
         <title>Practice</title>
     </head>
     <body>
-        <strong>Practice</strong>
+        <strong>練習</strong>
     </body>
 </html> 
