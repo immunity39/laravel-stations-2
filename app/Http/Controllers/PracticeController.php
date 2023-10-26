@@ -26,4 +26,3 @@ class PracticeController extends Controller
     }
 }
 ?>
-

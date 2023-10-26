@@ -17,9 +17,9 @@ class CreateMoviesTable extends Migration
             $table->id();
             $table->text('title')->comment('映画タイトル');
             $table->text('image_url')->comment('画像URL');
-            //$table->year('published_year')->comment('公開年');
-            //$table->text('description')->comment('説明');
-            //$table->boolean('is_showing')->comment('上映中かどうか');
+            $table->year('published_year')->comment('公開年');
+            $table->text('description')->comment('説明');
+            $table->boolean('is_showing')->comment('上映中かどうか');
             $table->timestamps();
         });
     }
